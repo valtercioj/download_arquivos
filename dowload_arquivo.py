@@ -27,5 +27,5 @@ def baixar_arquivo(url, endereco=None):
         print("Download finalizado. Arquivo salvo em: {}".format(endereco))
     else:
         resposta.raise_for_status()
-url = ''
+url = 'https://github.com/valtercioj/download_arquivos/blob/master/dowload_arquivo.py'
 baixar_arquivo(url)
